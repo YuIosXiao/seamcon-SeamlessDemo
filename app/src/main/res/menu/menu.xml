@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/add_event_item"
+        android:title="@string/add_event_menu_item" />
+
+    <item
+        android:id="@+id/sensor_list_item"
+        android:title="@string/show_sensor_list_item" />
+
+    <item
+        android:id="@+id/transition_toggle_item"
+        android:title="@string/transition_toggle_text" />
+
+    <item
+        android:id="@+id/mptcp_toggle_item"
+        android:title="@string/mptcp_toggle_text" />
+
+</menu>

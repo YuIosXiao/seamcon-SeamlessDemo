@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Seamless Network Connectivity</string>
+    <string name="empty_list">The logging service is disabled.</string>
+    <string name="logging_bar_title">Start Logging</string>
+    <string name="add_event_menu_item">Add Text Event</string>
+    <string name="show_sensor_list_item">Show Sensor List</string>
+    <string name="dismiss_popup_button">Dismiss</string>
+    <string name="sensor_list_header_text">Available Sensors</string>
+    <string name="transition_toggle_text">Toggle MPTCP Transitions</string>
+    <string name="disable_transition_text">Disable MPTCP Transitions</string>
+    <string name="enable_transition_text">Enable MPTCP Transitions</string>
+    <string name="mptcp_toggle_text">Toggle MPTCP</string>
+    <string name="disable_mptcp_text">Disable MPTCP</string>
+    <string name="enable_mptcp_text">Enable MPTCP</string>
+</resources>
