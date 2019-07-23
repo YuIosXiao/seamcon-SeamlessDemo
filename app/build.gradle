@@ -17,11 +17,15 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 
 repositories {
     maven {
-        url 'https://index.taskcluster.net/v1/task/gecko.v2.mozilla-central.nightly.latest.mobile.android-api-16-opt/artifacts/public/android/maven'
+        url 'https://index.taskcluster.net/v1/task/gecko.v2.mozilla-release.nightly.revision.030d57eb3450b3dd94170f24dc0fc5d77366ce5a.mobile.android-api-16-opt/artifacts/public/android/maven/'
     }
 }
 
@@ -38,5 +42,5 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     implementation 'com.google.code.gson:gson:2.8.4'
     implementation 'com.github.PhilJay:MPAndroidChart:v3.0.3'
-    implementation 'org.mozilla:geckoview-nightly-armeabi-v7a:+'
+    implementation 'org.mozilla.geckoview:geckoview-armeabi-v7a:+'
 }
